@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>El Brasero</title>
+
+    <link rel="stylesheet" href="vendor/uikit/css/uikit.min.css">
+    <link rel="stylesheet" href="vendor/uikit/css/components/slidenav.min.css">
+    <link rel="stylesheet" href="vendor/uikit/css/components/dotnav.min.css">
+    <link rel="stylesheet" href="vendor/uikit/css/components/slideshow.min.css">
+    <link rel="stylesheet" href="vendor/uikit/css/components/sticky.min.css">
+
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/master.css">
+    <link rel="stylesheet" href="assets/css/colors.css">
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/uikit/js/uikit.min.js"></script>
+    <script src="vendor/uikit/js/components/slideshow.min.js"></script>
+    <script src="vendor/uikit/js/components/sticky.min.js"></script>
+    <script src="vendor/uikit/js/components/lightbox.min.js"></script>
+  </head>
+  <body>
+    <div class="uk-block uk-block-large uk-cover-background" style="background-image: url('assets/images/master/header-bg.jpg')">
+      <div class="uk-container uk-container-center" data-uk-scrollspy="{ cls: 'uk-animation-slide-bottom' }">
+        <h1 class="uk-text-center uk-text-xlarge uk-text-contrast text-krona">EL BRASERO</h1>
+      </div>
+    </div>
+
+    <nav class="eb-navbar uk-navbar uk-flex uk-flex-center" data-uk-sticky="{ showup: true, animation: 'uk-animation-slide-top', clsactive: 'eb-navbar-active' }">
+      <ul class="uk-navbar-nav">
+        <li class="uk-visible-small"><a href="#offcanvas" data-uk-offcanvas="{mode:'slide'}">menu</a></li>
+        <li class="uk-hidden-small"><a href="index.html">inicio</a></li>
+        <li class="uk-hidden-small"><a href="nosotros.html">nosotros</a></li>
+        <li class="uk-hidden-small uk-active"><a href="platos.html">platos</a></li>
+        <li class="uk-hidden-small"><a href="contacto.html">contacto</a></li>
+      </ul>
+    </nav>
+
+    <div id="offcanvas" class="uk-offcanvas">
+      <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
+        <ul class="uk-nav uk-nav-offcanvas">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li class="uk-active"><a href="platos.html">Platos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="uk-block uk-block-muted">
+      <div class="uk-container uk-container-center uk-text-center" data-uk-scrollspy="{ cls: 'uk-animation-slide-left' }">
+        <h2 class="uk-h1">Explora la Carta</h4>
+        <div class="uk-grid uk-grid-width-medium-1-3" data-uk-grid-margin>
+          <div>
+            <figure class="uk-overlay uk-overlay-hover">
+              <img class="uk-overlay-scale" src="assets/images/platos/plato1.jpg" alt="">
+              <div class="uk-overlay-panel uk-overlay-fade uk-overlay-background uk-overlay-icon"></div>
+              <a class="uk-position-cover" href="assets/images/platos/plato1.jpg" data-uk-lightbox title="Pollo a la Brasa"></a>
+            </figure>
+            <div class="uk-panel-box uk-block-default">
+              <h4 class="uk-h3 uk-text-bold">Pollo a la brasa</h4>
+              <p class="uk-text-slim">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+          </div>
+          <div>
+            <figure class="uk-overlay uk-overlay-hover">
+              <img class="uk-overlay-scale" src="assets/images/platos/plato2.jpg" alt="">
+              <div class="uk-overlay-panel uk-overlay-fade uk-overlay-background uk-overlay-icon"></div>
+              <a class="uk-position-cover" href="assets/images/platos/plato2.jpg" data-uk-lightbox title="Filete a la Plancha"></a>
+            </figure>
+            <div class="uk-panel-box uk-block-default">
+              <h4 class="uk-h3 uk-text-bold">Filete a la Plancha</h4>
+              <p class="uk-text-slim">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+          </div>
+          <div>
+            <figure class="uk-overlay uk-overlay-hover">
+              <img class="uk-overlay-scale" src="assets/images/platos/plato3.jpg" alt="">
+              <div class="uk-overlay-panel uk-overlay-fade uk-overlay-background uk-overlay-icon"></div>
+              <a class="uk-position-cover" href="assets/images/platos/plato3.jpg" data-uk-lightbox title="Churrasco a lo Pobre"></a>
+            </figure>
+            <div class="uk-panel-box uk-block-default">
+              <h4 class="uk-h3 uk-text-bold">Churrasco a lo Pobre</h4>
+              <p class="uk-text-slim">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+          </div>
+          <div>
+            <figure class="uk-overlay uk-overlay-hover">
+              <img class="uk-overlay-scale" src="assets/images/platos/plato4.jpg" alt="">
+              <div class="uk-overlay-panel uk-overlay-fade uk-overlay-background uk-overlay-icon"></div>
+              <a class="uk-position-cover" href="assets/images/platos/plato4.jpg" data-uk-lightbox title="Ceviche Mixto"></a>
+            </figure>
+            <div class="uk-panel-box uk-block-default">
+              <h4 class="uk-h3 uk-text-bold">Ceviche Mixto</h4>
+              <p class="uk-text-slim">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+          </div>
+          <div>
+            <figure class="uk-overlay uk-overlay-hover">
+              <img class="uk-overlay-scale" src="assets/images/platos/plato5.jpg" alt="">
+              <div class="uk-overlay-panel uk-overlay-fade uk-overlay-background uk-overlay-icon"></div>
+              <a class="uk-position-cover" href="assets/images/platos/plato5.jpg" data-uk-lightbox title="Pan con Chicharron"></a>
+            </figure>
+            <div class="uk-panel-box uk-block-default">
+              <h4 class="uk-h3 uk-text-bold">Pan con Chicharron</h4>
+              <p class="uk-text-slim">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+          </div>
+          <div>
+            <figure class="uk-overlay uk-overlay-hover">
+              <img class="uk-overlay-scale" src="assets/images/platos/plato6.jpg" alt="">
+              <div class="uk-overlay-panel uk-overlay-fade uk-overlay-background uk-overlay-icon"></div>
+              <a class="uk-position-cover" href="assets/images/platos/plato6.jpg" data-uk-lightbox title="Anticuchos"></a>
+            </figure>
+            <div class="uk-panel-box uk-block-default">
+              <h4 class="uk-h3 uk-text-bold">Anticuchos</h4>
+              <p class="uk-text-slim">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="uk-block">
+      <div class="uk-container uk-container-center" data-uk-scrollspy="{ cls: 'uk-animation-slide-bottom' }">
+        <div class="uk-flex uk-flex-space-around uk-flex-wrap">
+          <div class="uk-margin-bottom uk-container uk-text-center">
+            <h4 class="uk-h1 uk-margin-small-bottom text-krona"><a class="uk-link-reset" href="index.html">EL BRASERO</a></h4>
+            <h4 class="uk-margin-small-top">&copy; 2016</h4>
+          </div>
+          <div class="uk-margin-bottom uk-container uk-text-center">
+            <a class="uk-icon-button uk-icon-facebook uk-margin-small-right" target="_blank" href="https://www.facebook.com/ElBraseroOficial/?fref=ts"></a>
+            <a class="uk-icon-button uk-icon-twitter uk-margin-small-right" target="_blank" href="https://twitter.com/?lang=es"></a>
+            <a class="uk-icon-button uk-icon-google-plus uk-margin-small-right" target="_blank" href="https://plus.google.com/collections/featured"></a>
+            <a class="uk-icon-button uk-icon-pinterest-p uk-margin-small-right" target="_blank" href="https://es.pinterest.com/"></a>
+            <a class="uk-icon-button uk-icon-instagram uk-margin-small-right" target="_blank" href="https://www.instagram.com/"></a>
+          </div>
+          <div class="uk-margin-bottom uk-container uk-text-slim">
+            <p class="uk-text-muted uk-h2">
+              <span>Av. Venezuela 718 </span><br>
+              <span>Breña </span><br>
+              <span class="uk-h3">A media cuadra de Metro</span>
+            </p>
+            <p class="uk-h3">informes@elbrasero.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="uk-block uk-block-secondary uk-padding-top-remove"></div>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+.button {
+  padding: 0px 30px;
+  color: white;
+  background: #454545;
+  transition: all .3s;
+  border: 0;
+  cursor: pointer;
+  line-height: 30px;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+.button.uk-button-large {
+  line-height: 40px;
+}
+
+.button:hover,
+.button:active,
+.button:focus {
+  color: white;
+  text-decoration: none;
+  opacity: .7;
+  outline: 0;
+}
+
+.button-red {
+  background: #f5261f;
+}
+
+.button-yellow {
+  background: #facc5c;
+}
+
+.button-green {
+  background: #abda1e;
+}
+
+.button-transparent {
+  background: transparent;
+}
+
+.border-white {
+  border: 1px solid white;
+}
+
+.text-red {
+  color: #f5261f;
+}
+
+.text-yellow {
+  color: #facc5c;
+}
+
+.text-green {
+  color: #abda1e;
+}
+
+/* Borders */
+
+.border-red-top {
+  border-top: 6px solid #f5261f;
+}
+
+.border-yellow-top {
+  border-top: 6px solid #facc5c;
+}
+
+.border-green-top {
+  border-top: 6px solid #abda1e;
+}

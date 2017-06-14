@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>El Brasero</title>
+
+    <link rel="stylesheet" href="vendor/uikit/css/uikit.min.css">
+    <link rel="stylesheet" href="vendor/uikit/css/components/slidenav.min.css">
+    <link rel="stylesheet" href="vendor/uikit/css/components/dotnav.min.css">
+    <link rel="stylesheet" href="vendor/uikit/css/components/slideshow.min.css">
+    <link rel="stylesheet" href="vendor/uikit/css/components/sticky.min.css">
+
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/master.css">
+    <link rel="stylesheet" href="assets/css/colors.css">
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/uikit/js/uikit.min.js"></script>
+    <script src="vendor/uikit/js/components/slideshow.min.js"></script>
+    <script src="vendor/uikit/js/components/sticky.min.js"></script>
+  </head>
+  <body>
+
+    <div class="uk-block uk-block-large uk-cover-background" style="background-image: url('assets/images/master/header-bg.jpg')">
+      <div class="uk-container uk-container-center" data-uk-scrollspy="{ cls: 'uk-animation-slide-bottom' }">
+        <h1 class="uk-text-center uk-text-xlarge uk-text-contrast text-krona">EL BRASERO</h1>
+      </div>
+    </div>
+
+    <nav class="eb-navbar uk-navbar uk-flex uk-flex-center" data-uk-sticky="{ showup: true, animation: 'uk-animation-slide-top', clsactive: 'eb-navbar-active' }">
+      <ul class="uk-navbar-nav">
+        <li class="uk-visible-small"><a href="#offcanvas" data-uk-offcanvas="{mode:'slide'}">menu</a></li>
+        <li class="uk-hidden-small"><a href="index.html">inicio</a></li>
+        <li class="uk-hidden-small uk-active"><a href="nosotros.html">nosotros</a></li>
+        <li class="uk-hidden-small"><a href="platos.html">platos</a></li>
+        <li class="uk-hidden-small"><a href="contacto.html">contacto</a></li>
+      </ul>
+    </nav>
+
+    <div id="offcanvas" class="uk-offcanvas">
+      <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
+        <ul class="uk-nav uk-nav-offcanvas">
+          <li><a href="index.html">Inicio</a></li>
+          <li class="uk-active"><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="platos.html">Platos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="uk-block uk-block-muted">
+      <div class="uk-container uk-container-center">
+        <h2 class="uk-h1 uk-text-slim uk-text-center uk-margin-large-bottom">
+          Unas palabras acerca de nosotros
+        </h2>
+        <div class="uk-grid uk-flex-middle" data-uk-grid-margin>
+          <div class="uk-width-medium-3-10 uk-text-center">
+            <img src="assets/images/nosotros/img1.jpg" alt="">
+          </div>
+          <div class="uk-width-medium-7-10">
+            <p>
+              Donec euismod imperdiet feugiat. Vivamus non interdum eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi tristique ut lacus et scelerisque.
+            </p>
+            <p class="uk-text-muted uk-text-slim">
+              Suspendisse potenti. Sed fermentum, libero eget euismod convallis, justo lectus egestas dui, eu tempor lectus risus a dolor. Suspendisse tempor quam purus, sit amet feugiat sapien molestie nec. Sed aliquam, justo ut pharetra dapibus, leo risus iaculis nulla, ut sagittis nunc diam lobortis metus. Nulla pulvinar odio vitae nisl dignissim, id rutrum lorem molestie. Maecenas euismod hendrerit risus, ut congue arcu tincidunt sed. Nullam at ipsum vel ante interdum lobortis. Etiam quis ultricies enim, in venenatis sapien. Phasellus interdum consectetur enim, venenatis eleifend urna sed nulla id magna placerat hendrerit.
+            </p>
+            <a href="" class="button uk-button-large">MÁS</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="uk-block">
+      <div class="uk-container uk-container-center">
+        <div class="uk-grid uk-grid-width-medium-1-3" data-uk-grid-margin>
+          <div>
+            <div class="border-red-top"></div>
+            <h3 class="uk-h1 uk-text-slim">Misión</h3>
+            <p>
+              Seius modi tempora incidunut labore et dolore.
+            </p>
+            <p class="uk-text-muted uk-text-slim">
+              Fratione uptate mseesciun neque porroisqm estrem equia dolorer ntreterase geryiuyasa miertase.
+            </p>
+            <ul class="uk-list uk-list-space uk-text-large uk-text-slim uk-text-muted">
+              <li><i class="uk-icon-check text-red"></i> Lorem ipsum dolor sit</li>
+              <li><i class="uk-icon-check text-red"></i> Lorem ipsum dolor sit</li>
+              <li><i class="uk-icon-check text-red"></i> Lorem ipsum dolor sit</li>
+              <li><i class="uk-icon-check text-red"></i> Lorem ipsum dolor sit</li>
+              <li><i class="uk-icon-check text-red"></i> Lorem ipsum dolor sit</li>
+            </ul>
+          </div>
+          <div>
+            <div class="border-yellow-top"></div>
+            <h3 class="uk-h1 uk-text-slim">Visión</h3>
+            <p>
+              Etiam eget auctor dui, quis feugiat leo.
+            </p>
+            <p class="uk-text-muted uk-text-slim">
+              Fratione uptate mseesciun neque porroisqm estrem equia dolorer ntreterase geryiuyasa miertase.
+            </p>
+            <ul class="uk-list uk-list-space uk-text-large uk-text-slim uk-text-muted">
+              <li><i class="uk-icon-check text-yellow"></i> Lorem ipsum dolor sit</li>
+              <li><i class="uk-icon-check text-yellow"></i> Lorem ipsum dolor sit</li>
+              <li><i class="uk-icon-check text-yellow"></i> Lorem ipsum dolor sit</li>
+              <li><i class="uk-icon-check text-yellow"></i> Lorem ipsum dolor sit</li>
+              <li><i class="uk-icon-check text-yellow"></i> Lorem ipsum dolor sit</li>
+            </ul>
+          </div>
+          <div>
+            <div class="border-green-top"></div>
+            <h3 class="uk-h1 uk-text-slim">Valores</h3>
+            <p>
+              Sed aliquam, justo ut pharetra dapibus.
+            </p>
+            <p class="uk-text-muted uk-text-slim">
+              Mdi tempora incidunt, ut labore et dolore magnam aliq uam quaerat voluptatem. ut enim ad minima veniam.
+            </p>
+            <ul class="uk-list uk-list-space uk-text-large uk-text-slim uk-text-muted">
+              <li><i class="uk-icon-check text-green"></i> Lorem ipsum dolor sit</li>
+              <li><i class="uk-icon-check text-green"></i> Lorem ipsum dolor sit</li>
+              <li><i class="uk-icon-check text-green"></i> Lorem ipsum dolor sit</li>
+              <li><i class="uk-icon-check text-green"></i> Lorem ipsum dolor sit</li>
+              <li><i class="uk-icon-check text-green"></i> Lorem ipsum dolor sit</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="uk-block uk-block-muted">
+      <div class="uk-container uk-container-center uk-text-center">
+        <h2 class="uk-text-slim uk-h1 uk-margin-large">Nuestros Cocineros</h2>
+        <div class="uk-grid uk-grid-width-large-1-4 uk-grid-width-medium-1-2" data-uk-grid-margin>
+          <div data-uk-scrollspy="{ cls: 'uk-animation-slide-left' }">
+            <img class="uk-border-circle" src="assets/images/nosotros/teacher1.jpg" alt="">
+            <h3>Luchita</h3>
+            <p class="uk-text-muted uk-text-slim">
+              Ceaertrsa vaesar rafaes setyesqure m ipsum quia dolor.
+            </p>
+          </div>
+          <div data-uk-scrollspy="{ cls: 'uk-animation-slide-bottom' }">
+            <img class="uk-border-circle" src="assets/images/nosotros/teacher2.jpg" alt="">
+            <h3>Luchito</h3>
+            <p class="uk-text-muted uk-text-slim">
+              Vsanamet, consect amodi tempora incidunt ut labore et.
+            </p>
+          </div>
+          <div data-uk-scrollspy="{ cls: 'uk-animation-slide-bottom' }">
+            <img class="uk-border-circle" src="assets/images/nosotros/teacher3.jpg" alt="">
+            <h3>Tiburcia</h3>
+            <p class="uk-text-muted uk-text-slim">
+              Consect amodi tempora incidunt, ut labore et dognam aliqu.
+            </p>
+          </div>
+          <div data-uk-scrollspy="{ cls: 'uk-animation-slide-right' }">
+            <img class="uk-border-circle" src="assets/images/nosotros/teacher4.jpg" alt="">
+            <h3>Jaimito</h3>
+            <p class="uk-text-muted uk-text-slim">
+              Quaerat voluptatem. ut enim ad mini ma veniam, quis nostrum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="uk-block uk-block-large uk-cover-background" style="background-image: url('assets/images/nosotros/testimonio-bg.jpg')">
+      <div class="uk-container uk-container-center uk-text-center uk-contrast">
+        <h2 class="uk-h1 uk-text-slim">Testimonios</h2>
+        <p class="uk-text-large uk-width-medium-4-5 uk-container-center">
+          “ Ceplicaboserde miuas nerafae kertyerauas vitaesa eniptaiad esertyatya nemo volernatur aut oditaut. Suspendisse potenti. Sed fermentum, libero eget euismod convallis, justo lectus egestas dui, eu tempor lectus risus a dolor. Suspendisse tempor quam sapien molestie nec...”
+        </p>
+        <p>
+          Patricio Pulgarcito, <br>
+          Cliente
+        </p>
+      </div>
+
+    </div>
+
+    <div class="uk-block">
+      <div class="uk-container uk-container-center" data-uk-scrollspy="{ cls: 'uk-animation-slide-bottom' }">
+        <div class="uk-flex uk-flex-space-around uk-flex-wrap">
+          <div class="uk-margin-bottom uk-container uk-text-center">
+            <h4 class="uk-h1 uk-margin-small-bottom text-krona"><a class="uk-link-reset" href="index.html">EL BRASERO</a></h4>
+            <h4 class="uk-margin-small-top">&copy; 2016</h4>
+          </div>
+          <div class="uk-margin-bottom uk-container uk-text-center">
+            <a class="uk-icon-button uk-icon-facebook uk-margin-small-right" target="_blank" href="https://www.facebook.com/ElBraseroOficial/?fref=ts"></a>
+            <a class="uk-icon-button uk-icon-twitter uk-margin-small-right" target="_blank" href="https://twitter.com/?lang=es"></a>
+            <a class="uk-icon-button uk-icon-google-plus uk-margin-small-right" target="_blank" href="https://plus.google.com/collections/featured"></a>
+            <a class="uk-icon-button uk-icon-pinterest-p uk-margin-small-right" target="_blank" href="https://es.pinterest.com/"></a>
+            <a class="uk-icon-button uk-icon-instagram uk-margin-small-right" target="_blank" href="https://www.instagram.com/"></a>
+          </div>
+          <div class="uk-margin-bottom uk-container uk-text-slim">
+            <p class="uk-text-muted uk-h2">
+              <span>Av. Venezuela 718 </span><br>
+              <span>Breña </span><br>
+              <span class="uk-h3">A media cuadra de Metro</span>
+            </p>
+            <p class="uk-h3">informes@elbrasero.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="uk-block uk-block-secondary uk-padding-top-remove"></div>
+
+  </body>
+</html>

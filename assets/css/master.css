@@ -1,0 +1,79 @@
+body {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6,
+.uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6,
+.uk-text-large {
+  font-family: 'Roboto', sans-serif;
+}
+
+.text-krona {
+  font-family: 'Krona One', sans-serif;
+}
+
+.uk-text-slim {
+  font-weight: 300;
+}
+
+.uk-text-xlarge {
+  font-size: 40px;
+}
+
+@media (min-width: 400px) {
+  .uk-text-xlarge {
+    font-size: 50px;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .uk-text-xlarge {
+    font-size: 80px;
+  }
+}
+
+.eb-navbar {
+  background: white;
+  padding: 30px 0;
+  transform: padding .3s;
+}
+
+.eb-navbar-active {
+  border-bottom: 1px solid #111;
+  padding: 12px 0;
+  z-index: 980;
+}
+
+.uk-navbar-nav>li>a {
+  color: #111;
+  background: white;
+  font-size: 30px;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  padding: 0 30px;
+}
+
+.uk-navbar-nav>li.uk-active>a,
+.uk-navbar-nav>li>a:hover,
+.uk-navbar-nav>li>a:active,
+.uk-navbar-nav>li>a:focus {
+  background: white;
+  color: #888;
+}
+
+.uk-icon-button {
+  background: white;
+  border: 1px solid #e3e3e3;
+  border: 1px solid #e3e3e3;
+}
+
+.uk-icon-button:hover{
+  background: white;
+  border: 1px solid #333;
+}
+.eb-grid{
+  background: white;
+}

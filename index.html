@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>El Brasero</title>
+
+    <link rel="stylesheet" href="vendor/uikit/css/uikit.min.css">
+    <link rel="stylesheet" href="vendor/uikit/css/components/slidenav.min.css">
+    <link rel="stylesheet" href="vendor/uikit/css/components/dotnav.min.css">
+    <link rel="stylesheet" href="vendor/uikit/css/components/slideshow.min.css">
+    <link rel="stylesheet" href="vendor/uikit/css/components/sticky.min.css">
+
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/master.css">
+    <link rel="stylesheet" href="assets/css/colors.css">
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/uikit/js/uikit.min.js"></script>
+    <script src="vendor/uikit/js/components/slideshow.min.js"></script>
+    <script src="vendor/uikit/js/components/sticky.min.js"></script>
+  </head>
+  <body>
+
+    <div class="uk-slidenav-position" data-uk-slideshow="{ autoplay: true, autoplayInterval: 4000 }">
+      <ul class="uk-slideshow">
+        <li><img src="assets/images/home/slide1.jpg" alt=""></li>
+        <li><img src="assets/images/home/slide2.jpg" alt=""></li>
+        <li><img src="assets/images/home/slide3.jpg" alt=""></li>
+      </ul>
+      <div class="uk-position-cover uk-overlay-background uk-flex uk-flex-center uk-flex-middle">
+        <h1 class="uk-text-xlarge uk-text-contrast text-krona uk-text-center" data-uk-scrollspy="{ cls: 'uk-animation-slide-bottom' }">EL BRASERO</h1>
+      </div>
+      <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
+      <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
+      <ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center">
+        <li data-uk-slideshow-item="0"><a href=""></a></li>
+        <li data-uk-slideshow-item="1"><a href=""></a></li>
+        <li data-uk-slideshow-item="2"><a href=""></a></li>
+      </ul>
+    </div>
+
+    <nav class="eb-navbar uk-navbar uk-flex uk-flex-center" data-uk-sticky="{ showup: true, animation: 'uk-animation-slide-top', clsactive: 'eb-navbar-active' }">
+      <ul class="uk-navbar-nav">
+        <li class="uk-visible-small"><a href="#offcanvas" data-uk-offcanvas="{mode:'slide'}">menu</a></li>
+        <li class="uk-hidden-small uk-active"><a href="index.html">inicio</a></li>
+        <li class="uk-hidden-small"><a href="nosotros.html">nosotros</a></li>
+        <li class="uk-hidden-small"><a href="platos.html">platos</a></li>
+        <li class="uk-hidden-small"><a href="contacto.html">contacto</a></li>
+      </ul>
+    </nav>
+
+    <div id="offcanvas" class="uk-offcanvas">
+      <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
+        <ul class="uk-nav uk-nav-offcanvas">
+          <li class="uk-active"><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="platos.html">Platos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="uk-block uk-block-muted">
+      <div class="uk-container uk-container-center uk-text-center" data-uk-scrollspy="{ cls: 'uk-animation-fade' }">
+        <h3 class="uk-heading-large text-krona">¡A COMER!</h3>
+        <p class="uk-text-large uk-text-muted uk-text-slim uk-margin-large-bottom">
+          Beciegast nveriti vitaesaert asety kertya aset aplicaboserde nerafae lorem ipsumoditaut. Monsequuntu kerliurase bertasasda buyra sasevar magni dolores eonqui ratione voluptate msequi nesciunt, neque porro quisquamesa dolore nuyfasasertas. Vertyu erauas aitaesa ertyasneo eniptaia desbuays.
+        </p>
+        <div class="uk-text-center">
+          <a href="nosotros.html" class="uk-button-large button">VER MÁS</a>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="uk-block">
+      <div class="uk-container uk-container-center">
+        <div class="uk-grid uk-grid-width-small-1-2 uk-grid-width-medium-1-3 uk-flex-center" data-uk-grid-margin data-uk-grid-match="{ target: '.details' }">
+          <div>
+            <div class="border-red-top"></div>
+            <h2 class="uk-h1">Parrillas</h2>
+            <img src="assets/images/home/img1.jpg" alt="">
+            <div class="details uk-margin-top">
+              <p>
+                Seius modi tempora incidunut labore et dolore.
+              </p>
+              <p class="uk-text-muted">
+                Fratione uptate mseesciun neque porroisqm estrem equia dolorer ntreterase geryiuyasa miertase. Derit ame kersed quia non numquam kertyrasas.
+              </p>
+            </div>
+            <a href="platos.html" class="button button-red uk-button-large">VER MÁS</a>
+          </div>
+          <div>
+            <div class="border-yellow-top"></div>
+            <h2 class="uk-h1">Pollos</h2>
+            <img src="assets/images/home/img2.jpg" alt="">
+            <div class="details uk-margin-top">
+              <p>
+                Decidunut aliquam quaerat voluptatem.
+              </p>
+              <p class="uk-text-muted">
+                Sius modi tempora incidunt, ut labore et dolore magn am aliquam quaerat voluptatem. ut enim ad minima ven iam, quis nostrum exercitationem.
+              </p>
+            </div>
+            <a href="platos.html" class="button button-yellow uk-button-large">VER MÁS</a>
+          </div>
+          <div>
+            <div class="border-green-top"></div>
+            <h2 class="uk-h1">Jugos</h2>
+            <img src="assets/images/home/img3.jpg" alt="">
+            <div class="details uk-margin-top">
+              <p>
+                Seius modi tempora incidunut labore et dolore.
+              </p>
+              <p class="uk-text-muted">
+                Nullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Duis autem vel eum iures reprehenderit, qui in ea voluptate velit.
+              </p>
+            </div>
+            <a href="platos.html" class="button button-green uk-button-large">VER MÁS</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="uk-block uk-block-muted">
+      <div class="uk-container uk-container-center">
+        <form class="uk-form uk-block uk-block-default">
+          <div class="uk-container">
+            <div class="uk-grid uk-grid-width-medium-1-3 uk-grid-width-small-1-2 uk-flex-center uk-flex-middle" data-uk-grid-margin>
+              <div class="uk-text-center uk-h1 uk-text-slim">Boletín informativo</div>
+              <div>
+                <input type="text" class="uk-width-1-1 uk-form-large" placeholder="tunombre@email.com">
+              </div>
+              <div>
+                <button class="button uk-button-large uk-width-1-1">SUSCRÍBETE</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="uk-block uk-block-muted">
+      <div class="uk-container uk-container-center uk-text-center">
+        <div class="uk-grid uk-grid-width-medium-1-2" data-uk-grid-margin>
+          <div data-uk-scrollspy="{ cls: 'uk-animation-slide-left' }">
+            <div class="uk-grid" data-uk-grid-margin>
+              <div class="uk-width-small-1-3 uk-text-center uk-flex-order-last-large">
+                <img src="assets/images/home/img4.jpg" class="uk-border-circle" alt="">
+              </div>
+              <div class="uk-width-small-2-3">
+                <h2 class="uk-h1">más popular</h2>
+                <p class="uk-text-slim">
+                  Ceaertrsa vaesar rafaes setyeras ertyao lasec vasptai aoertayse squrem ipsum quia dolor. Vsanamet, consect amodi tempora incidunt.
+                </p>
+                <a href="platos.html" class="button uk-button-large">MÁS</a>
+              </div>
+            </div>
+          </div>
+          <div data-uk-scrollspy="{ cls: 'uk-animation-slide-right' }">
+            <div class="uk-grid" data-uk-grid-margin>
+              <div class="uk-width-small-1-3 uk-text-center uk-flex-order-last-large">
+                <img src="assets/images/home/img5.jpg" class="uk-border-circle" alt="">
+              </div>
+              <div class="uk-width-small-2-3">
+                <h2 class="uk-h1">oferta especial</h2>
+                <p class="uk-text-slim">
+                  Daesarfaes setyera krscaertrsa aoertayse squrem ipsum quiertyaodeas laseceras vasptai a dolor. Vsanamet, consect di tempora miaser.
+                </p>
+                <a href="platos.html" class="button uk-button-large">MÁS</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="uk-position-relative uk-block uk-block-large uk-contrast uk-cover-background" style="background-image: url('assets/images/home/bg.jpg')">
+      <div class="uk-position-cover uk-overlay-background"></div>
+      <div class="uk-container uk-container-center uk-text-center uk-position-relative">
+        <h4 class="uk-heading-large text-krona">MEJORES<br>PLATOS</h4>
+        <p class="uk-text-large">
+          Ceplicaboserde miuas nerafae kertyerauas vitaesa eniptaiad esertyatya nemo
+        </p>
+        <a href="platos.html" class="button button-transparent border-white uk-button-large">VER MÁS</a>
+      </div>
+    </section>
+
+
+    <div class="eb-footer uk-block">
+      <div class="uk-container uk-container-center" data-uk-scrollspy="{ cls: 'uk-animation-slide-bottom' }">
+        <div class="uk-flex uk-flex-space-around uk-flex-wrap">
+          <div class="uk-margin-bottom uk-container uk-text-center">
+            <h4 class="uk-h1 uk-margin-small-bottom text-krona"><a class="uk-link-reset" href="index.html">EL BRASERO</a></h4>
+            <h4 class="uk-margin-small-top">&copy; 2016</h4>
+          </div>
+          <div class="uk-margin-bottom uk-container uk-text-center">
+            <a class="uk-icon-button uk-icon-facebook uk-margin-small-right" target="_blank" href="https://www.facebook.com/ElBraseroOficial/?fref=ts"></a>
+            <a class="uk-icon-button uk-icon-twitter uk-margin-small-right" target="_blank" href="https://twitter.com/?lang=es"></a>
+            <a class="uk-icon-button uk-icon-google-plus uk-margin-small-right" target="_blank" href="https://plus.google.com/collections/featured"></a>
+            <a class="uk-icon-button uk-icon-pinterest-p uk-margin-small-right" target="_blank" href="https://es.pinterest.com/"></a>
+            <a class="uk-icon-button uk-icon-instagram uk-margin-small-right" target="_blank" href="https://www.instagram.com/"></a>
+          </div>
+          <div class="uk-margin-bottom uk-container uk-text-slim">
+            <p class="uk-text-muted uk-h2">
+              <span>Av. Venezuela 718 </span><br>
+              <span>Breña </span><br>
+              <span class="uk-h3">A media cuadra de Metro</span>
+            </p>
+            <p class="uk-h3">informes@elbrasero.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="uk-block uk-block-secondary uk-padding-top-remove"></div>
+
+  </body>
+</html>
