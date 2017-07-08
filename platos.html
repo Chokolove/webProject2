@@ -18,7 +18,9 @@
     <link rel="stylesheet" href="assets/css/colors.css">
 
     <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery/myScripts.js"></script>
     <script src="vendor/uikit/js/uikit.min.js"></script>
+
     <script src="vendor/uikit/js/components/slideshow.min.js"></script>
     <script src="vendor/uikit/js/components/sticky.min.js"></script>
     <script src="vendor/uikit/js/components/lightbox.min.js"></script>
@@ -26,7 +28,7 @@
   <body>
     <div class="uk-block uk-block-large uk-cover-background" style="background-image: url('assets/images/master/header-bg.jpg')">
       <div class="uk-container uk-container-center">
-        <h1 class="uk-text-center uk-text-xlarge uk-text-contrast text-krona">EL BRASERO</h1>
+        <h1 id="banner-txt" style="top: 400px; position: relative;" class="uk-text-center uk-text-xlarge uk-text-contrast text-krona">EL BRASERO</h1>
       </div>
     </div>
 
@@ -55,7 +57,7 @@
       <div class="uk-container uk-container-center uk-text-center">
         <h2 class="uk-h1">Explora la Carta</h4>
         <div class="uk-grid uk-grid-width-medium-1-3" data-uk-grid-margin>
-          <div>
+          <div id="pollito" style="left:-700px; position:relative;">
             <figure>
               <img src="assets/images/platos/plato1.jpg" alt="">
             </figure>
@@ -64,7 +66,7 @@
               <p class="uk-text-slim">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>
           </div>
-          <div>
+          <div id="filete" style="left:-700px; position:relative;">
             <figure>
               <img src="assets/images/platos/plato2.jpg">
             </figure>
@@ -73,7 +75,7 @@
               <p class="uk-text-slim">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>
           </div>
-          <div>
+          <div id="churrasco" style="left:-700px; position:relative;">
             <figure>
               <img src="assets/images/platos/plato3.jpg" alt="">
             <div class="uk-panel-box uk-block-default">
@@ -81,7 +83,7 @@
               <p class="uk-text-slim">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>
           </div>
-          <div>
+          <div id="ceviche" style="left:-700px; position:relative;">
             <figure>
               <img src="assets/images/platos/plato4.jpg" alt="">
             </figure>
@@ -90,7 +92,7 @@
               <p class="uk-text-slim">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>
           </div>
-          <div>
+          <div id="pan" style="left:-700px; position:relative;">
             <figure>
               <img src="assets/images/platos/plato5.jpg" alt="">
             </figure>
@@ -99,7 +101,7 @@
               <p class="uk-text-slim">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>
           </div>
-          <div>
+          <div id="anticuchos" style="left:-700px; position:relative;">
             <figure>
               <img src="assets/images/platos/plato6.jpg" alt="">
             </figure>
@@ -112,7 +114,7 @@
       </div>
     </div>
 
-    <div class="uk-block">
+    <div  id="footer" style="opacity: 0;" class="eb-footer uk-block" class="uk-block">
       <div class="uk-container uk-container-center">
         <div class="uk-flex uk-flex-space-around uk-flex-wrap">
           <div class="uk-margin-bottom uk-container uk-text-center">

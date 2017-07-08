@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/css/colors.css">
 
     <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery/myScripts.js"></script>
     <script src="vendor/uikit/js/uikit.min.js"></script>
 
   </head>
@@ -24,7 +25,7 @@
 
     <div class="uk-block uk-block-large uk-cover-background" style="background-image: url('assets/images/master/header-bg.jpg')">
       <div class="uk-container uk-container-center">
-        <h1 class="uk-text-center uk-text-xlarge uk-text-contrast text-krona">EL BRASERO</h1>
+        <h1 id="banner-txt" style="top: 400px; position: relative;" class="uk-text-center uk-text-xlarge uk-text-contrast text-krona">EL BRASERO</h1>
       </div>
     </div>
 
@@ -134,28 +135,28 @@
       <div class="uk-container uk-container-center uk-text-center">
         <h2 class="uk-text-slim uk-h1 uk-margin-large">Nuestros Cocineros</h2>
         <div class="uk-grid uk-grid-width-large-1-4 uk-grid-width-medium-1-2" data-uk-grid-margin>
-          <div>
+          <div    id="luchita" style="left:-700px; position:relative;">
             <img class="uk-border-circle" src="assets/images/nosotros/teacher1.jpg" alt="">
             <h3>Luchita</h3>
             <p class="uk-text-muted uk-text-slim">
               Ceaertrsa vaesar rafaes setyesqure m ipsum quia dolor.
             </p>
           </div>
-          <div>
+          <div  id="luchito" style="top:400px; position:relative;">
             <img class="uk-border-circle" src="assets/images/nosotros/teacher2.jpg" alt="">
             <h3>Luchito</h3>
             <p class="uk-text-muted uk-text-slim">
               Vsanamet, consect amodi tempora incidunt ut labore et.
             </p>
           </div>
-          <div>
+          <div   id="tiburcia" style="top:400px; position:relative;">
             <img class="uk-border-circle" src="assets/images/nosotros/teacher3.jpg" alt="">
             <h3>Tiburcia</h3>
             <p class="uk-text-muted uk-text-slim">
               Consect amodi tempora incidunt, ut labore et dognam aliqu.
             </p>
           </div>
-          <div>
+          <div  id="jaimito" style="right:-700px; position:relative;">
             <img class="uk-border-circle" src="assets/images/nosotros/teacher4.jpg" alt="">
             <h3>Jaimito</h3>
             <p class="uk-text-muted uk-text-slim">
@@ -180,7 +181,7 @@
 
     </div>
 
-    <div class="uk-block">
+    <div   id="footer" style="opacity: 0;" class="eb-footer uk-block" class="uk-block">
       <div class="uk-container uk-container-center">
         <div class="uk-flex uk-flex-space-around uk-flex-wrap">
           <div class="uk-margin-bottom uk-container uk-text-center">
