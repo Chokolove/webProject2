@@ -6,7 +6,7 @@ $(document).ready(function(){
     i++
     if (i==3) i=0;
   }
-  setInterval(show,2000);
+  setInterval(show,1500);
   $("#banner-botones a").click(function(){
     $("#banner").attr("src",a[$(this).text()])
     i = $(this).text()
@@ -35,11 +35,11 @@ $(document).ready(function(){
   },1000);
 
   $(" #luchito").animate({
-    top: "0"
-  },1000);
+    opacity: "1"
+  },2500);
   $(" #tiburcia").animate({
-    top: "0"
-  },1000);
+    opacity: "1"
+  },2500);
 
   $("#pollito").animate({
     left: "0"
@@ -60,6 +60,19 @@ $(document).ready(function(){
     left: "0"
   },1000);
 
-
+  $(".zoom figure img").mouseover(function(){
+    $(this).animate({
+      opacity: 0.5
+    },500)
+  }).mouseout(function(){
+    $(this).animate({
+      opacity: 1
+    },500)
+  });
+  $("#formulario").mouseover(function () {
+    $("#formulario h3").css("color","red")
+  }).mouseout(function(){
+    $("#formulario h3").css("color","")
+  })
 
 })
