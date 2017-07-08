@@ -10,5 +10,9 @@ $(document).ready(function(){
   $("#banner-botones a").click(function(){
     $("#banner").attr("src",a[$(this).text()])
     i = $(this).text()
-  })
+  });
+  $("#banner-text").animate({
+    top: "0"
+  },2000);
+  $()
 })
