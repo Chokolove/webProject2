@@ -102,26 +102,22 @@
                 <!-- Segunda columna -->
                 <div class="uk-width-small-4-5 uk-width-medium-1-2">
                   <h3 class="uk-h2">COMUNÍCATE CON NOSOTROS</h3>
-                  <form id="form-contacto" class="uk-form uk-position-relative" action="mailer-contacto.php">
-                    <div class="uk-form-row">
-                      <input name="nombres" type="text" class="uk-width-1-1 uk-form-large" placeholder="Nombres" required>
+                  <form id="form-contacto" class="uk-position-relative">
+                    <div class="uk-margin">
+                      <input name="nombres" type="text" class="uk-width-1-1" placeholder="Nombres" >
                     </div>
-                    <div class="uk-form-row">
-                      <input name="telefono" type="text" class="uk-width-1-1 uk-form-large" placeholder="Teléfono o celular" required>
+                    <div class="uk-margin">
+                      <input name="telefono" type="text" class="uk-width-1-1" placeholder="Teléfono o celular" >
                     </div>
-                    <div class="uk-form-row">
-                      <input name="email" type="email" class="uk-width-1-1 uk-form-large" placeholder="E - mail" required>
+                    <div class="uk-margin">
+                      <input name="email" type="email" class="uk-width-1-1" placeholder="E - mail">
                     </div>
-                    <div class="uk-form-row">
-                      <textarea name="mensaje" class="uk-width-1-1 uk-form-large" rows="5" placeholder="Mensaje" required></textarea>
+                    <div class="uk-margin">
+                      <textarea name="mensaje" class="uk-width-1-1" rows="5" placeholder="Mensaje"></textarea>
                     </div>
-                    <div class="uk-form-row uk-text-center">
+
+                    <div id="formulario-enviar" class="uk-text-center">
                       <button class="button uk-button-large">ENVIAR</button>
-                    </div>
-                    <div class="form-loader uk-hidden bg-white-transparent uk-position-cover uk-flex uk-flex-center uk-flex-middle">
-                      <div class="uk-text-muted uk-text-center uk-heading-large">
-                        <i class="uk-icon-spinner uk-icon-spin"></i>
-                      </div>
                     </div>
                   </form>
                 </div>

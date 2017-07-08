@@ -73,6 +73,19 @@ $(document).ready(function(){
     $("#formulario h3").css("color","red")
   }).mouseout(function(){
     $("#formulario h3").css("color","")
+  });
+  $("#formulario-enviar").click(function(){
+    var nombre = document.getElementsByName('nombres')[0].value;
+    var telefono = document.getElementsByName('telefono')[0].value;
+    var expreLetras = /^[a-zA-Z_áéíóúñ\s]*$/;
+    var expreNumeros = /^\d+$/
+    if (expreLetras.test(nombre) && expreNumeros.test(telefono)){
+      alert("Se guardo exitosamente")
+    }
+    else {
+      alert("Escribio mal en uno de los campos")
+    }
+
   })
 
 })
